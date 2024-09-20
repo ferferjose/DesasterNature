@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../resources/img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20vh;
+    background-position: center;
+}
+.logo-container{
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+.logo{
+    height: 100%;
+}
+nav{
+    width: 60%;
+    height: 100%;
+    float: right;
+    font-size: 1.5rem;
+    text-align: right;
+    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20vh;
+    margin: 0 30px;
+}
