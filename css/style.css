@@ -222,7 +222,7 @@ input[type="submit"]:hover{
 #fondo_recursos>div{
     padding: 10px 5%;
 }
-#fondo_recursos>div>ul>li{
+#fondo_recursos>div>ol>li{
     list-style-type: upper-roman;
 }
 .enlacesReferencia{
